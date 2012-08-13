@@ -1,0 +1,51 @@
+/* -- General Page Styles ------------------------------------------- */
+
+body {
+	background:#f4f4f4;
+}
+
+.box {
+	width:300px;
+	background:#eee;
+	margin:30px;
+	background:#fff;
+	text-align:center;
+	padding:20px 0;
+	color:#ccc;
+	font-weight:bold;
+	font-size:20px;
+}
+
+
+
+/* -- Box Shadow Styles --------------------------------------------- */
+
+.top-shadow {
+	-webkit-box-shadow:0 -7px 7px -7px #aaa;
+	box-shadow:0 -7px 7px -7px #aaa;
+}
+
+.right-shadow {
+	-webkit-box-shadow:7px 0 7px -7px #aaa;
+	box-shadow:7px 0 7px -7px #aaa;
+}
+
+.bottom-shadow {
+	-webkit-box-shadow:0 7px 7px -7px #aaa;
+	box-shadow:0 7px 7px -7px #aaa;
+}
+
+.left-shadow {
+	-webkit-box-shadow:-7px 0 7px -7px #aaa;
+	box-shadow:-7px 0 7px -7px #aaa;
+}
+
+.top-bottom-shadow {
+	-webkit-box-shadow:0 -7px 7px -7px #aaa, 0 7px 7px -7px #aaa;
+	box-shadow:0 -7px 7px -7px #aaa, 0 7px 7px -7px #aaa;
+}
+
+.left-right-shadow {
+	-webkit-box-shadow:-7px 0 7px -7px #aaa, 7px 0 7px -7px #aaa;
+	box-shadow:-7px 0 7px -7px #aaa, 7px 0 7px -7px #aaa;
+}
